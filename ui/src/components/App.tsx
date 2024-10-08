@@ -81,7 +81,10 @@ const App = () => {
 	return (
 		<Provider>
 			<GlobalStyle />
-			<Navbar brand={<img src={logo} style={{ height: 30 }} alt="logo" />} />
+			<Navbar
+				brand={<img src={logo} style={{ height: 30 }} alt="logo" />}
+				style={{ backgroundColor: '#E5E4E2' }}
+			/>
 
 			<Container>
 				<Notifications
